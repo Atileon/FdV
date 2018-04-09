@@ -16,15 +16,15 @@
 }
 .fa{
     fill:blue;
-    transform-origin: 87px 320px;
+    transform-origin: 78px 325px;
 }
 .fb{
     fill: green;
-    transform-origin: 60px 325px;
+    transform-origin: 60px 320px;
 }
 .fc{
     fill: red;
-    transform-origin: 60px 280px;
+    transform-origin: 60px 290px;
 }
 .fd{
     fill: orange;
@@ -45,27 +45,27 @@
 }
 .a1a{
     fill:blue;
-    transform-origin: 87px 320px;
+    transform-origin: 165px 340px;
 }
 .a1b{
     fill: green;
-    transform-origin: 60px 325px;
+    transform-origin: 165px 310px;
 }
 .a1c{
     fill: red;
-    transform-origin: 60px 280px;
+    transform-origin: 120px 340px;
 }
 .a1d{
     fill: orange;
-    transform-origin: 110px 290px;
+    transform-origin: 140px 310px;
 }
 .a1e{
     fill: green;
-    transform-origin: 60px 325px;
+    transform-origin: 165px 310px;
 }
 .a1f{
     fill: red;
-    transform-origin: 60px 280px;
+    transform-origin: 150px 300px;
 }
 #A1 path, #A1 rect{
     animation: letterF 5s ease-out 1 forwards;
@@ -84,19 +84,19 @@
 }
 .na{
     fill:blue;
-    transform-origin: 87px 320px;
+    transform-origin: 200px 340px;
 }
 .nb{
     fill: green;
-    transform-origin: 60px 325px;
+    transform-origin: 245px 315px;
 }
 .nc{
     fill: red;
-    transform-origin: 60px 280px;
+    transform-origin: 265px 335px;
 }
 .nd{
     fill: orange;
-    transform-origin: 110px 290px;
+    transform-origin: 265px 290px;
 }
 #N path, #N .npoly{
     animation: letterF 5s ease-out 1 forwards;
@@ -114,7 +114,7 @@
 }
 .tb{
     fill: green;
-    transform-origin: 300px 285px;
+    transform-origin: 305px 285px;
 }
 .tc{
     fill: red;
@@ -130,7 +130,7 @@
 }
 .tf{
     fill: white;
-    transform-origin: 305px 28px;
+    transform-origin: 305px 285px;
 }
 #T path{
     animation: letterF 5s ease-out 1 forwards;
@@ -144,27 +144,27 @@
 }
 .a2a{
     fill:blue;
-    transform-origin: 280px 285px;
+    transform-origin: 375px 300px;
 }
 .a2b{
     fill: green;
-    transform-origin: 300px 285px;
+    transform-origin: 390px 310px;
 }
 .a2c{
     fill: violet;
-    transform-origin: 330px 286px;
+    transform-origin: 390px 310px;
 }
 .a2d{
     fill: orange;
-    transform-origin: 280px 290px;
+    transform-origin: 360px 310px;
 }
 .a2poly1{
     fill: red;
-    transform-origin: 330px 285px;
+    transform-origin: 360px 330px;
 }
 .a2poly2{
     fill: white;
-    transform-origin: 305px 28px;
+    transform-origin: 360px 315px;
 }
 #A2 path, #A2 polygon{
     animation: letterF 5s ease-out 1 forwards;
@@ -179,27 +179,27 @@
 }
 .sb{
     fill: green;
-    transform-origin: 300px 285px;
+    transform-origin: 475px 320px;
 }
 .sc{
     fill: blue;
-    transform-origin: 330px 286px;
+    transform-origin: 450px 300px;
 }
 .sd{
     fill: orange;
-    transform-origin: 280px 290px;
+    transform-origin: 425px 325px;
 }
 .se{
     fill: red;
-    transform-origin: 330px 285px;
+    transform-origin: 450px 325px;
 }
 .sf{
     fill: white;
-    transform-origin: 305px 28px;
+    transform-origin: 450px 300px;
 }
 .sg{
     fill: purple;
-    transform-origin: 305px 28px;
+    transform-origin: 420px 300px;
 }
 #S path{
     animation: letterF 5s ease-out 1 forwards;
@@ -230,12 +230,288 @@
 #I1 path{
     animation: letterF 5s ease-out 1 forwards;
 }
+/* ===================== E1 =================== */
+#E1{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.ea{
+    fill:blue;
+    transform-origin: 545px 300px;
+}
+.eb{
+    fill: green;
+    transform-origin: 570px 300px;
+}
+.ec{
+    fill: violet;
+    transform-origin: 575px 303px;
+}
+.ed{
+    fill: orange;
+    transform-origin: 570px 320px;
+}
+.ee{
+    fill: red;
+    transform-origin: 545px 320px;
+}
+.ef{
+    fill: white;
+    transform-origin: 585px 330px;
+}
+.eg{
+    fill: purple;
+    transform-origin: 545px 330px;
+}
+#E1 path{
+    animation: letterF 5s ease-out 1 forwards;
+}
+/* ================ D ============= */
+#D{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.da{
+    fill:blue;
+    transform-origin: 675px 300px;
+}
+.db{
+    fill: green;
+    transform-origin: 680px 305px;
+}
+.dc{
+    fill: violet;
+    transform-origin: 650px 300px;
+}
+.dd{
+    fill: orange;
+    transform-origin: 675px 325px;
+}
+.de{
+    fill: red;
+    transform-origin: 690px 295px;
+}
+.df{
+    fill: white;
+    transform-origin: 650px 325px;
+}
+.dg{
+    fill: purple;
+    transform-origin: 650px 315px;
+}
+#D path{
+    animation: letterF 5s ease-out 1 forwards;
+}
+/* ==================== I2 ========================= */
+#I2{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.i2a{
+    fill:blue;
+    transform-origin: 720px 285px;
+}
+.i2b{
+    fill: green;
+    transform-origin: 730px 285px;
+}
+#I2 path{
+    animation: letterF 5s ease-out 1 forwards;
+}
+/* ========================= V ============================ */
+#V{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.va{
+    fill:blue;
+    transform-origin: 785px 285px;
+}
+.vb{
+    fill: green;
+    transform-origin: 805px 290px;
+}
+.vc{
+    fill: violet;
+    transform-origin: 805px 315px;
+}
+.vd{
+    fill: orange;
+    transform-origin: 815px 325px;
+}
+.ve{
+    fill: red;
+    transform-origin: 825px 315px;
+}
+.vf{
+    fill: white;
+    transform-origin: 840px 285px;
+}
+#V path{
+    animation: letterF 5s ease-out 1 forwards;
+}
+/* ========================= E2 ======================= */
+#E2{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.e2a{
+    fill:blue;
+    transform-origin: 900px 300px;
+}
+.e2b{
+    fill: green;
+    transform-origin: 905px 300px;
+}
+.e2c{
+    fill: violet;
+    transform-origin: 880px 300px;
+}
+.e2d{
+    fill: orange;
+    transform-origin: 915px 330px;
+}
+.e2e{
+    fill: red;
+    transform-origin: 900px 320px;
+}
+.e2f{
+    fill: white;
+    transform-origin: 880px 330px;
+}
+.e2g{
+    fill: purple;
+    transform-origin: 880px 320px;
+}
+#E2 path{
+    animation: letterF 5s ease-out 1 forwards;
+}
+/* =========================== T1 ================== */
+#T1{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.t1a{
+    fill:blue;
+    transform-origin: 945px 340px;
+}
+.t1b{
+    fill: green;
+    transform-origin: 925px 290px;
+}
+.t1c{
+    fill: violet;
+    transform-origin: 945px 340px;
+}
+.t1d{
+    fill: orange;
+    transform-origin: 980px 285px;
+}
+.t1e{
+    fill: red;
+    transform-origin: 980px 285px;
+}
+.t1f{
+    fill: white;
+    transform-origin: 930px 285px;
+}
+#T1 path{
+    animation: letterF 5s ease-out 1 forwards;
+}
+/* ====================== R ==================== */
+#R{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.ra{
+    fill:blue;
+    transform-origin: 1040px 308px;
+}
+.rb{
+    fill: green;
+    transform-origin: 1010px 340px;
+}
+.rc{
+    fill: violet;
+    transform-origin: 995px 340px;
+}
+.rd{
+    fill: orange;
+    transform-origin: 1040px 305px;
+}
+.re{
+    fill: red;
+    transform-origin: 1035px 300px;
+}
+.rf{
+    fill: white;
+    transform-origin: 1050px 320px;
+}
+.rg{
+    fill: white;
+    transform-origin: 1025px 325px;
+}
+.rh{
+    fill: purple;
+    transform-origin: 1015px 300px;
+}
+.polyR{
+    fill: purple;
+    transform-origin: 1010px 310px;
+}
 
+#R path, #R polygon{
+    animation: letterF 5s ease-out 1 forwards;
+}
+/* ======================= O ======================== */
+#O{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.oa{
+    fill:blue;
+    transform-origin: 1115px 300px;
+}
+.ob{
+    fill: green;
+    transform-origin: 1120px 325px;
+}
+.oc{
+    fill: violet;
+    transform-origin: 1095px 300px;
+}
+.od{
+    fill: orange;
+    transform-origin: 1095px 325px;
+}
+.oe{
+    fill: red;
+    transform-origin: 1125px 320px;
+}
+.of{
+    fill: white;
+    transform-origin: 1090px 320px;
+}
+.polyOa{
+    fill: white;
+    transform-origin: 1120px 320px;
+}
+.polyOb{
+    fill: purple;
+    transform-origin: 1090px 305px;
+}
 
-
-
-
-
+#O path, #O polygon{
+    animation: letterF 5s ease-out 1 forwards;
+}
 /* =========================================================== */
 
 @keyframes letterF {

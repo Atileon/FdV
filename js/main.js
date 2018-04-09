@@ -34,7 +34,7 @@ class Rect{
               // let a= Math.rand()*1;
               let rect = document.createElementNS(svgNS,'rect');
 
-              svg.setAttribute('viewBox','0 0 1000 1000');
+              svg.setAttribute('viewBox','0 0 1000 70');
 
             rect.setAttribute('class','strip-'+i+'');
               rect.setAttribute('x',x);
@@ -49,6 +49,6 @@ class Rect{
     }
 }
 
-let quadratino = new Rect(0,0,10,40);
+let quadratino = new Rect(0,0,10,30);
 
 quadratino.draw(100);
