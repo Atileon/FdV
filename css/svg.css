@@ -1,0 +1,257 @@
+.svgContainer{
+
+    /* background: rgba(255, 255, 255, 0.4); */
+    position: relative;
+    top: 0;
+    background-size: cover;
+    width: 100%;
+    height: 35%;
+    margin:auto;
+}
+/* ============== F ======== */
+#F{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.fa{
+    fill:blue;
+    transform-origin: 87px 320px;
+}
+.fb{
+    fill: green;
+    transform-origin: 60px 325px;
+}
+.fc{
+    fill: red;
+    transform-origin: 60px 280px;
+}
+.fd{
+    fill: orange;
+    transform-origin: 110px 290px;
+}
+#F path{
+    animation: letterF 5s ease-out 1 forwards;
+}
+/* ============ A1 ========== */
+#A1{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.a1rect{
+    fill: pink;
+    transform-origin: 148px 300px;
+}
+.a1a{
+    fill:blue;
+    transform-origin: 87px 320px;
+}
+.a1b{
+    fill: green;
+    transform-origin: 60px 325px;
+}
+.a1c{
+    fill: red;
+    transform-origin: 60px 280px;
+}
+.a1d{
+    fill: orange;
+    transform-origin: 110px 290px;
+}
+.a1e{
+    fill: green;
+    transform-origin: 60px 325px;
+}
+.a1f{
+    fill: red;
+    transform-origin: 60px 280px;
+}
+#A1 path, #A1 rect{
+    animation: letterF 5s ease-out 1 forwards;
+}
+
+/* ================= N ============= */
+
+#N{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.npoly{
+    fill: yellow;
+    transform-origin: 210px 315px;
+}
+.na{
+    fill:blue;
+    transform-origin: 87px 320px;
+}
+.nb{
+    fill: green;
+    transform-origin: 60px 325px;
+}
+.nc{
+    fill: red;
+    transform-origin: 60px 280px;
+}
+.nd{
+    fill: orange;
+    transform-origin: 110px 290px;
+}
+#N path, #N .npoly{
+    animation: letterF 5s ease-out 1 forwards;
+}
+/* ================= T ================ */
+
+#T{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.ta{
+    fill:blue;
+    transform-origin: 280px 285px;
+}
+.tb{
+    fill: green;
+    transform-origin: 300px 285px;
+}
+.tc{
+    fill: red;
+    transform-origin: 330px 286px;
+}
+.td{
+    fill: orange;
+    transform-origin: 280px 290px;
+}
+.te{
+    fill: yellow;
+    transform-origin: 330px 285px;
+}
+.tf{
+    fill: white;
+    transform-origin: 305px 28px;
+}
+#T path{
+    animation: letterF 5s ease-out 1 forwards;
+}
+/* ===================== A2 =================== */
+
+#A2{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.a2a{
+    fill:blue;
+    transform-origin: 280px 285px;
+}
+.a2b{
+    fill: green;
+    transform-origin: 300px 285px;
+}
+.a2c{
+    fill: violet;
+    transform-origin: 330px 286px;
+}
+.a2d{
+    fill: orange;
+    transform-origin: 280px 290px;
+}
+.a2poly1{
+    fill: red;
+    transform-origin: 330px 285px;
+}
+.a2poly2{
+    fill: white;
+    transform-origin: 305px 28px;
+}
+#A2 path, #A2 polygon{
+    animation: letterF 5s ease-out 1 forwards;
+}
+
+/* ============= S =============== */
+
+#S{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.sb{
+    fill: green;
+    transform-origin: 300px 285px;
+}
+.sc{
+    fill: blue;
+    transform-origin: 330px 286px;
+}
+.sd{
+    fill: orange;
+    transform-origin: 280px 290px;
+}
+.se{
+    fill: red;
+    transform-origin: 330px 285px;
+}
+.sf{
+    fill: white;
+    transform-origin: 305px 28px;
+}
+.sg{
+    fill: purple;
+    transform-origin: 305px 28px;
+}
+#S path{
+    animation: letterF 5s ease-out 1 forwards;
+}
+/* ======= I =============== */
+
+#I1{
+    stroke:black;
+    stroke-width: 1.5;
+    transform-origin: center;
+}
+.ia{
+    fill:blue;
+    transform-origin: 490px 340px;
+}
+.ib{
+    fill: green;
+    transform-origin: 505px 285px;
+}
+.ic{
+    fill: violet;
+    transform-origin: 510px 290px;
+}
+.id{
+    fill: orange;
+    transform-origin: 510px 340px;
+}
+#I1 path{
+    animation: letterF 5s ease-out 1 forwards;
+}
+
+
+
+
+
+
+/* =========================================================== */
+
+@keyframes letterF {
+    0%{
+        transform: rotate(260deg) scale(.1);
+        opacity:0;
+
+    }
+    70%{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    90%{
+        transform: translateY(-10px) scale(1);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
