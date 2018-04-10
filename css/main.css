@@ -25,6 +25,15 @@ body{
 .text-shadow{
     text-shadow: 0px 2px 5px black;
 }
+/* ==================== FONT FAMILY ======================== */
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Graduate', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Nova Square', cursive; */
+
 /* =========================== SVG =============== */
 
 .item{
@@ -44,10 +53,11 @@ body{
     /* // border: 1px orange solid; */
  }
  .item a{
-    color: Black;
+    color: rgba(217, 241, 255, 0.829) !important;
     text-decoration: none;
     margin: auto;
     text-align: center;
+    font-family: 'Poiret One', cursive;
     font-size: 1.5em;
     display: block;
     height: 100%;
@@ -127,6 +137,15 @@ body{
      transform: translateY(15px);
  }
 /* ======================= */
+.navbar-brand{
+    /* font-family: 'Open Sans', sans-serif !important; */
+    font-family: 'Poiret One', cursive !important;
+    /* font-family: 'Black Ops One', cursive !important; */
+    /* font-family: 'Graduate', cursive !important; */
+    /* font-family: 'Faster One', cursive !important; */
+    /* font-family: 'Nova Square', cursive !important; */
+    font-size: 1.8em;
+}
 .navbar-fdv{
     background:#1F87BD;
     box-shadow: 0 3px 7px rgba(14,14,14,.8)!important;
