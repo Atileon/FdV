@@ -1,5 +1,5 @@
 body{
-    background:#1F87BD;
+    background:rgba(28, 40, 38 ,1);
     color: rgb(255,255,255);
 }
 #svgStripCont{
@@ -8,15 +8,15 @@ body{
     left: 0;
     margin:0;
     width: 100vw;
-    height: 60px;
 }
 .bgImgFP{
     position: relative;
     margin: 0 auto;
-    margin-top: 3em;
     padding: 0;
-    background: url('../img/vetrataopt.jpg'),linear-gradient(to bottom, rgba(0, 0, 0, 0.493), rgba(255, 255, 255, .3));
+    /* background: url('../img/vetrataopt.jpg'); */
+    background: linear-gradient(to bottom,transparent 35%, rgba(1, 44, 61, 0.836)), url('../img/vetrataopt.jpg');
     background-size: cover;
+    background-blend-mode: color-burn;
     width: 100vw;
     height: 100vh;
 }
@@ -77,52 +77,57 @@ font-family: 'Nova Square', cursive; */
     height: 100%;
     width: 100%;
  }
- .rect1, .rect2, .rect3, .rect4, .rect5, .rect6, .rect7, .rect8{
-    position: relative;
- }
  .rect1{
     
-    fill:rgba(2, 67, 121, 0.5);
-    transform: translateY(90%);
+    fill:rgba(244, 241, 187, 0.6);
+    transform: translateY(100%);
+    transition: all .4s ease-in-out; 
  }
  .rect2{
     
-    fill:rgba(0, 162, 255, 0.5);
-    transform: translateY(80%);
+    fill:rgba(240, 100, 73, 0.6);
+    transform: translateY(100%);
+    transition: all .3s ease-in-out; 
  }
  .rect3{
     
-    fill:rgba(2, 67, 121, 0.5);
-    transform: translateY(90%);
+    fill:rgba(243, 201, 105, 0.6);
+    transform: translateY(100%);
+    transition: all .2s ease-in-out; 
  }
  .rect4{
     
-    fill:rgba(0, 162, 255, 0.5);
-    transform: translateY(80%);
+    fill:rgba(239, 131, 84, 0.6);
+    transform: translateY(100%);
+    transition: all .1s ease-in-out; 
  }
  .rect5{
-    fill:rgba(2, 67, 121, 0.5);
-    transform: translateY(90%);
+    fill:rgba(244, 241, 187, 0.6);
+    transform: translateY(100%);
+    transition: all .1s ease-in-out; 
  }
  .rect6{
-    fill:rgba(0, 162, 255, 0.5);
-    transform: translateY(80%);
+    fill:rgba(240, 100, 73, 0.6);
+    transform: translateY(100%);
+    transition: all .2s ease-in-out; 
  }
  .rect7{
-    fill:rgba(2, 67, 121, 0.5);
-    transform: translateY(90%);
+    fill:rgba(243, 201, 105, 0.6);
+    transform: translateY(100%);
+    transition: all .3s ease-in-out; 
  }
  .rect8{
-    fill:rgba(0, 162, 255, 0.5);
-    transform: translateY(80%);
+    fill:rgba(239, 131, 84, 0.6);
+    transform: translateY(100%);
+    transition: all .4s ease-in-out; 
  }
  .rect{ 
     stroke:rgba(5, 5, 5, 0.5);
-    transition: all .7s ease-in-out; 
+    /* transition: all .7s ease-in-out;  */
  }
  li:hover .rect{
     transform: translateY(5%);  
-    animation: menuBar .5s ease-in-out .6s infinite alternate forwards;
+    /* animation: menuBar .5s ease-in-out .6s infinite alternate forwards; */
  }
  
  @keyframes menuBar{
@@ -155,15 +160,15 @@ font-family: 'Nova Square', cursive; */
 .navbar-brand{
     /* font-family: 'Poiret One', cursive !important; */
     /* font-family: 'Graduate', cursive !important; */
-    color: rgb(200, 255, 0) !important;
+    color: rgb(252, 253, 21) !important;
     font-family: 'Nova Square', cursive !important;
     font-size: 1.9em;
 }
 .nav-link{
-    color: rgb(255, 224, 46) !important;
+    color: rgb(252, 253, 21) !important;
 }
 .navbar-fdv{
-    background:#1F87BD;
+    background:rgba(28, 40, 38 ,.9);
     box-shadow: 0 3px 7px rgba(14,14,14,.8)!important;
 }
 

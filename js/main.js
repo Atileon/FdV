@@ -34,14 +34,16 @@ class Rect{
               // let a= Math.rand()*1;
               let rect = document.createElementNS(svgNS,'rect');
 
-              svg.setAttribute('viewBox','0 0 1000 70');
+              svg.setAttribute('viewBox','0 0 1000 80');
 
             rect.setAttribute('class','strip-'+i+'');
               rect.setAttribute('x',x);
               rect.setAttribute('y',y);
               rect.setAttribute('width',w);
               rect.setAttribute('height',h);
-              rect.setAttribute('fill','rgb('+r+','+g+','+b+')');
+              rect.setAttribute('fill','rgba('+r+','+g+','+b+',0.5)');
+              rect.setAttribute('stroke','black');
+              rect.setAttribute('stroke-width','0.1');
 
               svg.appendChild(rect);
             container.appendChild(svg);
@@ -49,6 +51,6 @@ class Rect{
     }
 }
 
-let quadratino = new Rect(0,0,10,30);
+let quadratino = new Rect(0,0,10,60);
 
 quadratino.draw(100);

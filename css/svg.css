@@ -4,9 +4,12 @@
     position: relative;
     top: 0;
     background-size: cover;
-    width: 100%;
-    height: 35%;
     margin:auto;
+}
+
+/* ============= FILL OPACITY ANY LETTER ============== */
+.svgContainer svg{
+    fill-opacity: .5;
 }
 /* ============== F ======== */
 #F{
