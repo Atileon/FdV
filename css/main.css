@@ -4,11 +4,12 @@ body{
     overflow-x: hidden;
 }
 #svgStripCont{
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     margin:0;
     width: 100vw;
+    height: 100vh;
 }
 .bgImgFP{
     position: relative;
@@ -58,7 +59,6 @@ font-family: 'Nova Square', cursive; */
 .item{
     position:relative;
     display: inline-block;
- 
     width: 200px;
     height: 70px;
  }
@@ -79,8 +79,9 @@ font-family: 'Nova Square', cursive; */
     /* font-family: 'Poiret One', cursive !important; */
     /* font-family: 'Graduate', cursive !important; */
     font-family: 'Nova Square', cursive !important;
+    letter-spacing: .2em;
 
-    font-size: 1.5em;
+    font-size: 1.3em;
     display: block;
     height: 100%;
     width: 100%;
@@ -157,26 +158,28 @@ font-family: 'Nova Square', cursive; */
     }
  }
  [class^=strip-]{
+     position: relative;
+     z-index: 20;
      transition: all .1s ease-in-out;
  }
 
  [class^=strip-]:hover{
-     transform: translateY(15px);
+     transform: translateY(50px);
  }
 /* ============ Navigation Bar =========== */
 
 .navbar-brand{
     /* font-family: 'Poiret One', cursive !important; */
     /* font-family: 'Graduate', cursive !important; */
-    color: rgb(252, 253, 21) !important;
-    font-family: 'Nova Square', cursive !important;
-    font-size: 1.9em;
+    color: rgb(255, 196, 0) !important;
+    font-family: 'Poiret One', cursive !important;
+    font-size: 2em;
 }
 .nav-link{
-    color: rgb(252, 253, 21) !important;
+    color: rgb(255, 196, 0) !important;
 }
 .navbar-fdv{
-    background:rgba(28, 40, 38 ,.7);
+    background:rgba(28, 40, 38 ,.9);
     box-shadow: 0 3px 7px rgba(14,14,14,.8)!important;
 }
 
@@ -184,7 +187,7 @@ font-family: 'Nova Square', cursive; */
 
 #main-content{
     width: 100vw;
-    height: 70vh;
+    height: 100%;
     
 }
 #footer{
@@ -206,7 +209,7 @@ font-family: 'Nova Square', cursive; */
     
 }
 .orari h2{
-    font-size: 2em;
+    font-size: 1.8em;
 }
 .contact-links, .orari{
     position: relative;
@@ -227,10 +230,10 @@ font-family: 'Nova Square', cursive; */
     transition: all .7s ease-in-out;
 }
 .contact-links:hover .bg-glass{
-    border-radius: 0px 0px 0px 15px;
+    border-radius: 0px 0px 3px 5px;
 }
 .orari:hover .bg-glass{
-    border-radius: 0px 0px 15px 0px;
+    border-radius: 0px 0px 5px 3px;
 }
 
 .contact-links:hover .bg-glass, .orari:hover .bg-glass{

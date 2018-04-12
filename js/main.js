@@ -14,43 +14,43 @@ class Rect{
    		let container= document.getElementById('svgStripCont');
            for(let i=0; i < nRects; i++){
 		   	
-			   /* let x = i * 10;
-			   let y = 10;
-			   let w = 10;
-			   let h = 10; */
-			  
-				let x = i * (this.x + this.w);
-			   let y = this.y;
-			   let w = this.w;
-			   let h = this.h;
-							console.log(x);
-							console.log(y);
-							console.log(i);
+            /* let x = i * 10;
+            let y = 10;
+            let w = 10;
+            let h = 10; */
+            
+            let x = i * (this.x + this.w);
+            let y = this.y;
+            let w = this.w;
+            let h = this.h;
+                        console.log(x);
+                        console.log(y);
+                        console.log(i);
 
-              let r= Math.floor(Math.random() * 255);
-              let g= Math.floor(Math.random() * 255);
-              let b= Math.floor(Math.random() * 255);
-             /*  console.log(r); */
-              // let a= Math.rand()*1;
-              let rect = document.createElementNS(svgNS,'rect');
+            let r= Math.floor(Math.random() * 255);
+            let g= Math.floor(Math.random() * 255);
+            let b= Math.floor(Math.random() * 255);
+            /*  console.log(r); */
+            // let a= Math.rand()*1;
+            let rect = document.createElementNS(svgNS,'rect');
 
-              svg.setAttribute('viewBox','0 0 1000 80');
+            svg.setAttribute('viewBox','0 0 1000 100');
 
             rect.setAttribute('class','strip-'+i+'');
-              rect.setAttribute('x',x);
-              rect.setAttribute('y',y);
-              rect.setAttribute('width',w);
-              rect.setAttribute('height',h);
-              rect.setAttribute('fill','rgba('+r+','+g+','+b+',0.5)');
-              rect.setAttribute('stroke','black');
-              rect.setAttribute('stroke-width','0.1');
+            rect.setAttribute('x',x);
+            rect.setAttribute('y',y);
+            rect.setAttribute('width',w);
+            rect.setAttribute('height',h);
+            rect.setAttribute('fill','rgba('+r+','+g+','+b+',0.5)');
+            rect.setAttribute('stroke','black');
+            rect.setAttribute('stroke-width','0.1');
 
-              svg.appendChild(rect);
+            svg.appendChild(rect);
             container.appendChild(svg);
            }
     }
 }
 
-let quadratino = new Rect(0,0,10,60);
+let quadratino = new Rect(0,0,20,80);
 
 quadratino.draw(100);
