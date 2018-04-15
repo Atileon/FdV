@@ -34,7 +34,7 @@ class Rect{
             // let a= Math.rand()*1;
             let rect = document.createElementNS(svgNS,'rect');
 
-            svg.setAttribute('viewBox','0 0 1000 100');
+            svg.setAttribute('viewBox','0 0 1000 200');
 
             rect.setAttribute('class','strip-'+i+'');
             rect.setAttribute('x',x);
@@ -51,6 +51,28 @@ class Rect{
     }
 }
 
-let quadratino = new Rect(0,0,20,80);
+let quadratino = new Rect(0,0,20,90);
 
 quadratino.draw(100);
+
+// =============== Ava Smooth scroll function ================
+let btnChisono = document.getElementById('btn-a');
+let chiSono = document.getElementById('chiSono');
+
+function avaScroll(element,target){
+
+    let posTarget = target.offsetTop;//vertical position of the target
+
+    element.addEventListener('click',function(e){
+
+        e.stopPropagation();
+
+        window.scroll({
+            top: posTarget,
+            behavior: "smooth"
+          });
+
+    });
+}
+avaScroll(btnHome,home);
+avaScroll(btnChisono,chiSono);

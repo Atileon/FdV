@@ -22,7 +22,7 @@
     <!-- Navbar -->
     <div class="container-fluid">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-fdv pb-0">
-            <a class="navbar-brand text center text-shadow" href="/">FDV | Roberto Gritti</a>
+            <span id="btnHome" class="navbar-brand text center text-shadow">FDV | Roberto Gritti</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,7 +42,8 @@
                             <rect class='rect rect7' width="25" height="100" x='150' y='0'/>
                             <rect class='rect rect8' width="25" height="100" x='175' y='0'/>
                          </svg>
-                        <a class="nav-link text-shadow pt-3" href="#main-content">Chi sono <span class="sr-only">(current)</span></a>
+                         <span id="btn-a" class="nav-link text-center text-shadow pt-3">Chi Sono</span>
+                        <!-- <a id="btn-a" class="nav-link text-shadow pt-3" href="#">Chi sono <span class="sr-only">(current)</span></a> -->
                     </li>
 
                     <li class="item nav-item mx-4">
@@ -57,7 +58,7 @@
                             <rect class='rect rect7' width="25" height="100" x='150' y='0'/>
                             <rect class='rect rect8' width="25" height="100" x='175' y='0'/>
                          </svg>
-                        <a class="nav-link text-shadow pt-3" href="#">Servizi</a>
+                        <span id="btn-b" class="nav-link text-shadow pt-3">Servizi</span>
                     </li>
 
                     <li class="item nav-item mx-4">
@@ -72,7 +73,7 @@
                             <rect class='rect rect7' width="25" height="100" x='150' y='0'/>
                             <rect class='rect rect8' width="25" height="100" x='175' y='0'/>
                          </svg>
-                        <a class="nav-link text-shadow pt-3" href="#">Dove sono</a>
+                        <span id="btn-c" class="nav-link text-shadow pt-3">Dove sono</span>
                     </li>
 
                     <li class="item nav-item mx-4">
@@ -87,7 +88,7 @@
                             <rect class='rect rect7' width="25" height="100" x='150' y='0'/>
                             <rect class='rect rect8' width="25" height="100" x='175' y='0'/>
                          </svg>
-                        <a class="nav-link text-shadow pt-3" href="#footer">Contatti</a>
+                        <span id="btn-d" class="nav-link text-shadow pt-3">Contatti</span>
                     </li>
 
                 </ul>
@@ -98,7 +99,7 @@
     <!-- End navbar -->
 
     <!-- Main Header -->
-    <div class="bgImgFP box-shadow">
+    <div id="home" class="bgImgFP box-shadow">
         <!-- SvG Strips Container -->
         <div id="svgStripCont"></div>
         <!-- End Svg Strips Container -->
@@ -289,7 +290,7 @@
     </div>
     <!-- End Main Header -->
     <!-- Content Uomo di Vetro -->
-    <div id="main-content" class="container pt-5">
+    <div id="chiSono" class="container pt-5">
         <div class="row pt-5">
             <div class="col-12 col-lg-6  p-3">
                 <img class="img-fluid rounded box-shadow align-middle uomoVetro" src="img/roby.jpg" alt="L'uomo di vetro">
