@@ -31,7 +31,7 @@ body{
     text-shadow: 0px 2px 5px black;
 }
 .shadow-neon{
-    box-shadow: 0px 0px 70px rgb(255, 118, 0);
+    box-shadow: 0px 0px 340px rgba(255, 119, 0, 0.459);
 }
 .row{ margin: 0; padding: 0 }
 /* ==================== FONT FAMILY ======================== */
@@ -202,11 +202,11 @@ font-family: 'Nova Square', cursive; */
 }
 .uomo-vetro{
     border-radius: 5px;
-    background: linear-gradient(135deg, transparent 0%,rgb(156, 65, 0) 50%, transparent 100%);
+    background: linear-gradient(135deg, transparent 0%,rgba(156, 65, 0,.7) 50%, transparent 100%);
     background-size: 200% 200%;
 }
 .uomo-vetro-cont:hover .uomo-vetro{
-    animation: glass 5s ease-in-out infinite forwards alternate;
+    animation: glass 9s ease-in-out infinite alternate;
 }
 #footer{
     background: rgb(10, 44, 58);
